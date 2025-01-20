@@ -56,7 +56,7 @@ function About() {
     // C
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
-        "https://res.cloudinary.com/db5pgr14l/image/upload/v1737357474/WhatsApp_Image_2025-01-20_at_07.56.56_37094b5a-removebg-preview_1_etgxbt.jpg",
+        "https://res.cloudinary.com/db5pgr14l/image/upload/v1737357168/WhatsApp_Image_2025-01-20_at_07.56.56_37094b5a-removebg-preview_dn1ell.jpg",
         "https://res.cloudinary.com/db5pgr14l/image/upload/v1737291174/menu_ke5uf1.webp",
 
         "https://res.cloudinary.com/db5pgr14l/image/upload/v1736497241/EC_menus1_jeid2z.jpg"
@@ -125,7 +125,7 @@ function About() {
             </motion.section>
 
 
-            <div className="relative bg-gold h-auto text-white my-10 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
+            <div className="relative bg-gold h-auto text-white my-10 p-2 md:p-14 ml-2 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
                 {/* Text Section */}
                 <div className="md:w-1/2">
                     <h2 className="text-3xl md:text-4xl font-bold">

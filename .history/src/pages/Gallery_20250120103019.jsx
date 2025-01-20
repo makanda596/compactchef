@@ -137,7 +137,7 @@ const Gallery = () => {
     };
 
     return (
-        <div className="p-2 py-14 md:p-8 md:py-20">
+        <div className="p-2 py-14 md:p-8 md:p-20">
             <h2 className="text-4xl font-semibold text-center mb-8">Our Gallery</h2>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 {images.map((image, index) => (

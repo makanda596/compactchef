@@ -125,7 +125,7 @@ function About() {
             </motion.section>
 
 
-            <div className="relative bg-gold h-auto text-white my-10 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
+            <div className="relative bg-gold h-auto text-white my-10 p-6 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
                 {/* Text Section */}
                 <div className="md:w-1/2">
                     <h2 className="text-3xl md:text-4xl font-bold">
@@ -143,7 +143,7 @@ function About() {
 
                 <div className="md:w-3/4 mt-4 md:mt-[-100px]">
                     <video
-                        className="w-full bg-gold h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
+                        className="w-full bg-gold h-96 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted

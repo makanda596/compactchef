@@ -125,7 +125,7 @@ function About() {
             </motion.section>
 
 
-            <div className="relative bg-gold h-auto text-white my-10 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
+            <div className="relative  h-auto text-black my-10 p-6 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
                 {/* Text Section */}
                 <div className="md:w-1/2">
                     <h2 className="text-3xl md:text-4xl font-bold">

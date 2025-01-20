@@ -56,7 +56,7 @@ function About() {
     // C
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
-        "https://res.cloudinary.com/db5pgr14l/image/upload/v1737357474/WhatsApp_Image_2025-01-20_at_07.56.56_37094b5a-removebg-preview_1_etgxbt.jpg",
+        "https://res.cloudinary.com/db5pgr14l/image/upload/v1737357474/WhatsApp_Image_2025-01-20_at_07.56.56_37094b5a-removebg-preview_1_etgxbt.jpg"
         "https://res.cloudinary.com/db5pgr14l/image/upload/v1737291174/menu_ke5uf1.webp",
 
         "https://res.cloudinary.com/db5pgr14l/image/upload/v1736497241/EC_menus1_jeid2z.jpg"

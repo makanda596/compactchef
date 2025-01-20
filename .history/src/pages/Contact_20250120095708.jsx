@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -29,12 +29,7 @@ const ContactPage = () => {
 
             const result = await res.json();
             if (result.success) {
-                // Show confirmation popup
-                const isConfirmed = window.confirm("Your message has been sent successfully! Do you want to submit another message?");
-                if (isConfirmed) {
-                    // Reset the form if the user confirms
-                    event.target.reset();
-                }
+                alert("Your message has been sent successfully!");
             } else {
                 alert("There was an error submitting the form. Please try again.");
             }
@@ -43,18 +38,6 @@ const ContactPage = () => {
             alert("Failed to fetch. Please check your internet connection.");
         }
     };
-
-    // Add the script for ElfSight after the component is mounted
-    useEffect(() => {
-        const script = document.createElement("script");
-        script.src = "https://static.elfsight.com/platform/platform.js";
-        script.async = true;
-        document.body.appendChild(script);
-
-        return () => {
-            document.body.removeChild(script); // Cleanup the script
-        };
-    }, []);
 
     return (
         <div className="min-h-screen bg-gray-100 py-6 px-2 mt-6 w-full sm:py-12">
@@ -196,11 +179,6 @@ const ContactPage = () => {
                                         </button>
                                     </div>
                                 </form>
-                            </div>
-
-                            {/* ElfSight widget */}
-                            <div className="form-right">
-                                <div className="elfsight-app-1552705b-cfc2-43a1-8c52-a2f88696bc8e" data-elfsight-app-lazy></div>
                             </div>
                         </div>
                     </div>
