@@ -41,9 +41,9 @@ const reviews = [
 
 const Review = () => {
     return (
-        <div className="bg-white py-8">
-            <div className="max-w-7xl mx-auto px-0">
-                <h2 className="text-2xl font-bold text-center text-[#8b8000] mb-2">What Our Clients Say</h2>
+        <div className="bg-white py-12">
+            <div className="max-w-7xl mx-auto px-4">
+                <h2 className="text-3xl font-bold text-center text-[#8b8000] mb-8">What Our Clients Say</h2>
 
                 <div className="flex space-x-6 overflow-x-auto pb-6">
                     {reviews.map((review, index) => (

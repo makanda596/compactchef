@@ -47,20 +47,20 @@ const Navbar = () => {
                     <a href="/" className=" text-black font-serif hover:text-white">
                         Home
                     </a>
-                    <a href="services" className="text-black font-serif hover:text-white">
+                    <a href="services" className="text-black font-serif hover:underline">
                         Services
                     </a>
-                    <a href="menu" className="text-black font-serif hover:text-white">
+                    <a href="menu" className="text-black font-serif hover:underline">
                         Menu
                     </a>
 
-                    <a href="gallery" className="text-black font-serif hover:text-white">
+                    <a href="gallery" className="text-black font-serif hover:underline">
                         Gallery
                     </a>
-                    <a href="book" className="text-black font-serife hover:text-white" target="_blank" >
+                    <a href="book" className="text-black font-serife hover:underline" target="_blank" >
                         Inquire Now
                     </a>
-                    <a href="contact" className="text-black font-serif hover:text-white">
+                    <a href="contact" className="text-black font-serif  ">
                         Contact Us
                     </a>
 

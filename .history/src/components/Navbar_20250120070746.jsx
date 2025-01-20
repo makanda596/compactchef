@@ -5,16 +5,16 @@ const Navbar = () => {
 
     return (
         <nav className="bg-gold shadow-lg fixed top-0 z-50 w-full">
-            <div className="container mx-auto px-4 flex justify-between items-center h-12 md:h-14">
+            <div className="container mx-auto px-4 flex justify-between items-center h-16">
 
-                <div className="text-black font-bold text-xl flex space-x-4">
+                <div className="text-white font-bold text-1xl flex space-x-4">
                     <img src={logo} alt="" className="w-10 rounded-lg object-cover" />
-                    <p className="py-1">Compact Chef</p></div>
+                    <p>Compact Chef</p></div>
 
                 <div className="lg:hidden">
                     <button
                         onClick={() => setIsOpen(!isOpen)}
-                        className="text-black focus:outline-none"
+                        className="text-white focus:outline-none"
                     >
                         <svg
                             className="w-6 h-6"
@@ -43,24 +43,24 @@ const Navbar = () => {
                 </div>
 
                 {/* Links for Desktop */}
-                <div className="hidden lg:flex   space-x-6 text-xl ">
-                    <a href="/" className=" text-black font-serif hover:text-white">
+                <div className="hidden lg:flex space-x-6 text-xl">
+                    <a href="/" className="text-white hover:underline">
                         Home
                     </a>
-                    <a href="services" className="text-black font-serif hover:text-white">
+                    <a href="services" className="text-white hover:underline">
                         Services
                     </a>
-                    <a href="menu" className="text-black font-serif hover:text-white">
+                    <a href="menu" className="text-white hover:underline">
                         Menu
                     </a>
 
-                    <a href="gallery" className="text-black font-serif hover:text-white">
+                    <a href="gallery" className="text-white hover:underline">
                         Gallery
                     </a>
-                    <a href="book" className="text-black font-serife hover:text-white" target="_blank" >
+                    <a href="book" className="text-white hover:underline" target="_blank" >
                         Inquire Now
                     </a>
-                    <a href="contact" className="text-black font-serif hover:text-white">
+                    <a href="contact" className="text-white hover:underline">
                         Contact Us
                     </a>
 

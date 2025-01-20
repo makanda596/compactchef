@@ -75,33 +75,34 @@ function About() {
 
             <motion.section
                 className="flex flex-wrap items-center justify-between p-8 mt-4 bg-white"
-                initial={{ opacity: 0, y: 100 }} // Initial position moved down
-                whileInView={{ opacity: 1, y: 0 }} // Moves up to its normal position
+                initial={{ opacity: 0, x: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
-                exit={{ opacity: 0, y: -100 }} // Moves out upward on exit
+                exit={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.6 }}
             >
+
                 <motion.div
                     className="w-full md:w-1/2 mb-4 md:mb-0"
-                    initial={{ opacity: 0, y: 100 }} // Moves up from down
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}  // Trigger the animation when in view
                     viewport={{ once: true, amount: 0.5 }}
-                    exit={{ opacity: 0, y: -100 }} // Moves out upward
+                    exit={{ opacity: 0, x: 100 }}
                     transition={{ duration: 0.6 }}
                 >
                     <img
                         src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736261958/compactChef/rbllj9bnxq8yzdbe9cdw.jpg"
                         alt="Compact Chef Events and Caterers"
-                        className="w-full h-96 rounded-lg object-cover md:object-contain"
+                        className="w-full h-96 rounded-lg object-contain"
                     />
                 </motion.div>
 
                 <motion.div
                     className="w-full md:w-1/2 md:pl-8"
-                    initial={{ opacity: 0, y: 100 }} // Moves up from down
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }}  // Trigger the animation when in view
                     viewport={{ once: true, amount: 0.5 }}
-                    exit={{ opacity: 0, y: -100 }} // Moves out upward
+                    exit={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.6 }}
                 >
                     <h2 className="text-2xl md:text-3xl font-bold text-[#8b8000] mb-4">
@@ -123,7 +124,6 @@ function About() {
                 </motion.div>
             </motion.section>
 
-
             <div className="relative bg-gold h-auto text-white my-10 p-6 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
                 {/* Text Section */}
                 <div className="md:w-1/2">
@@ -139,10 +139,11 @@ function About() {
 
                 </div>
 
+                {/* First Video Section */}
 
                 <div className="md:w-3/4 mt-4 md:mt-[-100px]">
                     <video
-                        className="w-full bg-gold h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
+                        className="w-full bg-black h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted
@@ -254,14 +255,8 @@ function About() {
                 </div>
             </div>
             {/* Gallery Section */}
-            <section className="p-2 mt-4 md:p-8">
-                {/* Heading and Button Row */}
-                <div className="flex items-center justify-between mb-8">
-                    <h2 className="text-2xl font-bold text-[#8b8000]">Our Gallery</h2>
-                    <button className="bg-gold px-4 py-2 text-md font-serif rounded-md shadow-md text-black hover:bg-yellow-600 transition-all">
-                        <a href="/gallery" >VISIT GALLERY</a>
-                    </button>
-                </div>
+            <section className="p-8">
+                <h2 className="text-3xl font-bold text-[#8b8000] text-center mb-8">Our Gallery</h2>
 
                 {/* Display selected image */}
                 {selectedImage && (
@@ -305,7 +300,7 @@ function About() {
                             >
                                 <img
                                     src={image}
-                                    alt=""
+                                    alt={`Gallery Image ${index + 1}`}
                                     className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
                                 />
                             </motion.div>
@@ -331,15 +326,16 @@ function About() {
                             >
                                 <img
                                     src={image}
-                                    alt=""
+                                    alt={`Gallery Image ${index + 1}`}
                                     className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
                                 />
                             </motion.div>
                         ))}
                     </div>
                 </div>
-            </section>
 
+                <button >VISIT GALLERYU</button>
+            </section>
 
 
 

@@ -92,7 +92,7 @@ function About() {
                     <img
                         src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736261958/compactChef/rbllj9bnxq8yzdbe9cdw.jpg"
                         alt="Compact Chef Events and Caterers"
-                        className="w-full h-96 rounded-lg object-cover md:object-contain"
+                        className="w-full h-96 rounded-lg object-contain"
                     />
                 </motion.div>
 
@@ -139,10 +139,11 @@ function About() {
 
                 </div>
 
+                {/* First Video Section */}
 
                 <div className="md:w-3/4 mt-4 md:mt-[-100px]">
                     <video
-                        className="w-full bg-gold h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
+                        className="w-full bg-black h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted

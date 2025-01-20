@@ -287,7 +287,7 @@ function About() {
                     {/* First Row with 6 Images */}
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
                         {[
-                            "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
+                            "https://res.cloudinary.com/db5pgr14l/image/upload/v1736264342/compactChef/a8jba9dz0qq0wnfzacjg.jpg",
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1737291632/men_exm0pj.webp",
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1736264671/compactChef/rzduwk5ix2dmgjv1m0at.jpg",
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1737290824/coopr_hxrzgo.jpg",

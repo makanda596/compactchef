@@ -57,10 +57,10 @@ const Navbar = () => {
                     <a href="gallery" className="text-black font-serif hover:text-white">
                         Gallery
                     </a>
-                    <a href="book" className="text-black font-serife hover:text-white" target="_blank" >
+                    <a href="book" className="text-black font-serife hover:underline" target="_blank" >
                         Inquire Now
                     </a>
-                    <a href="contact" className="text-black font-serif hover:text-white">
+                    <a href="contact" className="text-black font-serif  ">
                         Contact Us
                     </a>
 

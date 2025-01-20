@@ -92,7 +92,7 @@ function About() {
                     <img
                         src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736261958/compactChef/rbllj9bnxq8yzdbe9cdw.jpg"
                         alt="Compact Chef Events and Caterers"
-                        className="w-full h-96 rounded-lg object-cover md:object-contain"
+                        className="w-full h-96 rounded-lg object-contain"
                     />
                 </motion.div>
 

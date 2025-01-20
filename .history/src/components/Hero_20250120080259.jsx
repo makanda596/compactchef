@@ -77,7 +77,7 @@ function Hero() {
                             src={item.img}
                             alt=""
                             key={index}
-                            className="h-40 md:h-64 w-full  rounded-lg object-cover"
+                            className="h-64 w-full  rounded-lg object-cover"
                             initial={{ opacity: 0 }}  // Starts with 0 opacity
                             animate={{ opacity: 1 }}   // Fades in to 1 opacity
                             transition={{ duration: 0.8, delay: index * 0.2 }}  // Staggered fade-in

@@ -90,7 +90,7 @@ function About() {
                     transition={{ duration: 0.6 }}
                 >
                     <img
-                        src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736261958/compactChef/rbllj9bnxq8yzdbe9cdw.jpg"
+                        src="https://res.cloudinary.com/db5pgr14l/image/upload/v1737349641/IMG-20250105-WA0301_zp6b3l.jpg"
                         alt="Compact Chef Events and Caterers"
                         className="w-full h-96 rounded-lg object-cover md:object-contain"
                     />

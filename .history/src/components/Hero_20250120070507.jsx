@@ -39,7 +39,7 @@ function Hero() {
 
     return (
 
-        <div className="grid md:grid-cols-2 gap-0 md:gap-4 my-2 px-0 pt-18">
+        <div className="grid md:grid-cols-2 gap-4 my-2 px-0 pt-18">
             <div className="relative flex flex-col h-screen">
                 <video
                     className="w-full h-full object-cover"
@@ -70,14 +70,14 @@ function Hero() {
             </div>
 
 
-            <div className="gap-4 py-4 md:py-20">
+            <div className="gap-4 py-20">
                 <div className="grid grid-cols-4 gap-4 mb-4">
                     {herofiles.slice(0, 4).map((item, index) => (
                         <motion.img
                             src={item.img}
                             alt=""
                             key={index}
-                            className="h-40 md:h-64 w-full  rounded-lg object-cover"
+                            className="h-64 w-full  rounded-lg object-cover"
                             initial={{ opacity: 0 }}  // Starts with 0 opacity
                             animate={{ opacity: 1 }}   // Fades in to 1 opacity
                             transition={{ duration: 0.8, delay: index * 0.2 }}  // Staggered fade-in
