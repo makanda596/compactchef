@@ -110,7 +110,7 @@ function Inquiry() {
                     Let us know how we can assist you. Fill out the form below, and we’ll get back to you as soon as possible.
                 </p>
                 <form className="space-y-6" onSubmit={onSubmit}>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                         <div>
                             <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
                                 Your Name
@@ -308,7 +308,7 @@ function Inquiry() {
                     <div>
                         <button
                             type="submit"
-                            className="w-1/2 md:w-full bg-[#8b8000] text-white py-2 rounded-lg text-lg font-bold hover:bg-[#a08d00] transition duration-300"
+                            className="w-full bg-[#8b8000] text-white py-3 rounded-lg text-lg font-bold hover:bg-[#a08d00] transition duration-300"
                         >
                             {loading ? "Submitting..." : "Submit Inquiry"}
                         </button>

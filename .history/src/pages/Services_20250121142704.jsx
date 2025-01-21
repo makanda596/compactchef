@@ -232,7 +232,7 @@ const Services = () => {
             </div>
             {/* Popup */}
             {showPopup && (
-                <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-start z-50">
+                <div className="fixed  bg-gray-800  flex justify-center mt-4 items-start z-50">
                     <div className="bg-white p-4 rounded-lg w-72 md:w-1/2">
                         <h2 className="text-xl font-bold mb-2">Quick Book Form</h2>
                         <p className="text-sm mb-2">

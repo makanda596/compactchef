@@ -151,7 +151,7 @@ function About() {
                 <img
                     src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736497255/private_aj5o24.jpg"
                     alt=""
-                    className="absolute top-52 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
+                    className="absolute top-64 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
                 />
             </div>
 

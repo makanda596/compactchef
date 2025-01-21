@@ -138,7 +138,7 @@ const Gallery = () => {
 
     return (
         <div className="p-2 py-14 md:p-8 md:py-20">
-            <h2 className="text-xl md:text-2xl font-semibold text-center mb-4">Our Gallery</h2>
+            <h2 className="text-4xl font-semibold text-center mb-8">Our Gallery</h2>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
                 {images.map((image, index) => (
                     <div
@@ -151,10 +151,9 @@ const Gallery = () => {
                             alt="s"
                             className="w-full h-64 object-cover transition-transform duration-300 transform group-hover:scale-110"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center transition-opacity duration-300">
-                            <span className="text-white text-base text-center">{image.eventPlace}</span>
+                        <div className="absolute inset-0 bg-black  opacity-100 flex items-center justify-center transition-opacity duration-300">
+                            <span className="text-white text-xl">{image.eventPlace}</span>
                         </div>
-
                         <button
                             onClick={(e) => { e.stopPropagation(); openModal(image.src, index); }}
                             className="absolute top-2 right-2 bg-white text-black p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"

@@ -75,7 +75,7 @@ function About() {
         <div>
 
             <motion.section
-                className="flex flex-wrap items-center justify-between px-6 py-2 mt-1 bg-white"
+                className="flex flex-wrap items-center justify-between p-6 mt-2 bg-white"
                 initial={{ opacity: 0, y: 100 }} // Initial position moved down
                 whileInView={{ opacity: 1, y: 0 }} // Moves up to its normal position
                 viewport={{ once: true, amount: 0.5 }}
@@ -105,7 +105,7 @@ function About() {
                     exit={{ opacity: 0, y: -100 }} // Moves out upward
                     transition={{ duration: 0.6 }}
                 >
-                    <h2 className="text-xl md:text-2xl font-bold text-[#8b8000] mb-4">
+                    <h2 className="text-2xlfont-bold text-[#8b8000] mb-4">
                         Compact Chefs Events and Caterers
                     </h2>
                     <p className="text-base md:text-lg text-gray-700 mb-4">
@@ -125,19 +125,24 @@ function About() {
             </motion.section>
 
 
-            <div className="relative bg-gold h-auto text-black my-2 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-6 w-[90%] md:w-3/4">
-                <div className="md:w-3/4">
-                    <h2 className="text-xl font-bold mb-2 text-blue-600 opacity-90 leading-tight text-center mx-auto">
-                        Ready to Elevate Your Event?
+            <div className="relative bg-gold h-auto text-white my-4 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
+                <div className="md:w-1/2">
+                    <h2 className="text-3xl md:text-4xl font-bold">
+                        Fostering <span className="text-white">Trust</span> and{" "}
+                        <span className="text-white">Collaboration</span>
                     </h2>
-                    <p className="text-lg font-medium text-black mb-2 md:mb-6">
-                        Let us make your special moments even more memorable.Don’t just dream about the perfect event—let’s make it a reality together. Book with us today, and let’s create something beautiful.
+                    <p className="text-base md:text-lg mt-4">
+                        At Compact Chef Events, we are dedicated to fostering trust and
+                        collaboration by delivering exceptional service and engaging
+                        meaningfully with our clients.
                     </p>
+
                 </div>
 
-                <div className="md:w-3/4 mt-2 md:mt-[-140px]">
+
+                <div className="md:w-3/4 mt-4 md:mt-[-100px]">
                     <video
-                        className="w-full  h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
+                        className="w-full bg-gold h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted
@@ -151,14 +156,14 @@ function About() {
                 <img
                     src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736497255/private_aj5o24.jpg"
                     alt=""
-                    className="absolute top-52 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
+                    className="absolute top-64 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
                 />
             </div>
 
 
             <section className="py-1 p-1 px-4 md:p-28 bg-white">
                 <h2 className="text-2xl font-bold text-[#8b8000] text-center mb-6 ">Our Services</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {services.map((service, index) => (
                         <motion.div
                             key={index}
@@ -171,11 +176,11 @@ function About() {
                             <img
                                 src={service.image}
                                 alt={service.name}
-                                className="w-full h-44 object-cover rounded-md mb-2 cursor-pointer"
+                                className="w-full h-44 object-cover rounded-md mb-4 cursor-pointer"
                                 onClick={() => setSelectedImage(service.image)} // Set the selected image on click
                             />
-                            <h3 className="text-lg font-bold text-[#8b8000] mb-1">{service.name}</h3>
-                            <p className="text-sm text-gray-700 mb-2 text-center">{service.description}</p>
+                            <h3 className="text-lg font-bold text-[#8b8000] mb-2">{service.name}</h3>
+                            <p className="text-sm text-gray-700 mb-4 text-center">{service.description}</p>
                             <button className="bg-[#8b8000] text-white py-2 px-4 rounded-lg text-sm hover:bg-[#a08d00] transition-colors duration-300">
                                 <a href="/services">Know More</a>
                             </button>
@@ -183,6 +188,7 @@ function About() {
                     ))}
                 </div>
 
+                {/* Modal for displaying selected image */}
                 {selectedImage && (
                     <div
                         className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
@@ -209,6 +215,7 @@ function About() {
             </section>
             <div className="bg-white p-2">
                 <div>
+                    {/* Right Section (Image Slider) */}
                     <motion.div
                         className="md:w-full mt-2 md:mt-0"
                         initial={{ opacity: 0, x: 100 }}
@@ -245,15 +252,17 @@ function About() {
                     </motion.div>
                 </div>
             </div>
-            {/* gallery */}
+            {/* Gallery Section */}
             <section className="p-2 mt-4 md:p-8">
-                <div className="flex items-center justify-between mb-4 px-2 md:px-20">
+                {/* Heading and Button Row */}
+                <div className="flex items-center justify-between mb-8 px-2 md:px-20">
                     <h2 className="text-2xl font-bold text-[#8b8000]">Our Gallery</h2>
-                    <button className=" px-4 py-2 text-sm font-serif  text-blue-600 hover:text-red-600 transition-all">
+                    <button className="underline  px-4 py-2 text-md font-serif  text-blue-600 hover:text-red-600 transition-all">
                         <a href="/gallery" >VISIT GALLERY</a>
                     </button>
                 </div>
 
+                {/* Display selected image */}
                 {selectedImage && (
                     <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
                         <div className="relative">
@@ -272,8 +281,10 @@ function About() {
                     </div>
                 )}
 
+                {/* Gallery Grid */}
                 <div className="space-y-6">
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                    {/* First Row with 6 Images */}
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
                         {[
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1737291632/men_exm0pj.webp",
@@ -301,7 +312,7 @@ function About() {
                     </div>
 
                     {/* Second Row with 5 Images */}
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {[
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1737294236/EC_menus1_qgbbd4.jpg",
                             "https://res.cloudinary.com/db5pgr14l/image/upload/v1736264937/babyshower_vodjfd.jpg",

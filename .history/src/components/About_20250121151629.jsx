@@ -135,7 +135,7 @@ function About() {
                     </p>
                 </div>
 
-                <div className="md:w-3/4 mt-2 md:mt-[-140px]">
+                <div className="md:w-1/2 mt-2 md:mt-[-140px]">
                     <video
                         className="w-full  h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
@@ -151,7 +151,7 @@ function About() {
                 <img
                     src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736497255/private_aj5o24.jpg"
                     alt=""
-                    className="absolute top-52 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
+                    className="absolute top-64 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
                 />
             </div>
 

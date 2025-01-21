@@ -132,7 +132,7 @@ const Contact = () => {
                                                 type="text"
                                                 name="name"
                                                 required="true"
-                                                className="px-4 py-3 w-full border-2 border-gray-300 rounded-md shadow-md text-sm focus:ring-2 focus:ring-indigo-500 transition-colors"
+                                                className="px-4 py-3 w-full border-2 border-gray-300 rounded-md shadow-md focus:ring-2 focus:ring-indigo-500 transition-colors"
                                                 placeholder="Your Name"
                                             />
                                         </div>
@@ -206,7 +206,7 @@ const Contact = () => {
                                     <div className="pt-4">
                                         <button
                                             type="submit"
-                                            className="bg-indigo-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-indigo-600 transition-colors"
+                                            className="bg-indigo-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-indigo-600 transition-colors"
                                         >
                                             {loading ? "Submitting..." : "Submit "}
                                         </button>

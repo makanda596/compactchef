@@ -45,11 +45,11 @@ const Review = () => {
             <div className="max-w-7xl mx-auto px-0">
                 <h2 className="text-xl md:text-2xl font-bold text-center text-[#8b8000] mb-2">What Our Clients Say</h2>
 
-                <div className="flex space-x-6 overflow-x-auto pb-4">
+                <div className="flex space-x-6 overflow-x-auto pb-6">
                     {reviews.map((review, index) => (
                         <div
                             key={index}
-                            className="bg-white p-2 rounded-lg  shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105 flex-shrink-0 w-80"
+                            className="bg-white p-2 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105 flex-shrink-0 w-80"
                         >
                             <div className="flex items-center space-x-4 mb-4">
                                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center text-xl font-bold text-[#8b8000]">
@@ -63,7 +63,7 @@ const Review = () => {
                             <div className="flex items-center space-x-2 mb-2">
                                 <p className="text-yellow-500 text-lg">{review.rating}</p>
                             </div>
-                            <p className="mt-2 text-gray-700">{review.review}</p>
+                            <p className="mt-4 text-gray-700">{review.review}</p>
                         </div>
                     ))}
                 </div>

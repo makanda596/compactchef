@@ -84,17 +84,18 @@ const Contact = () => {
                                         </a>
                                     </p>
                                     <p className="flex items-center">
-                                        <EmailIcon className="mr-3 text-xl md:text-2xl" />
-                                        <a href="mailto:compactchefsevents@gmail.com" className=" hover:text-blue-600 font-serif text-base md:text-lg" target="_blank" rel="noopener noreferrer">
+                                        <EmailIcon className="mr-3 text-base md:text-2xl" />
+                                        <a href="mailto:compactchefsevents@gmail.com" className=" hover:text-blue-600 font-serif text-lg" target="_blank" rel="noopener noreferrer">
                                             compactchefsevents@gmail.com
                                         </a>
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="pt-1 md:pt-6">
-                                <h2 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">Follow Us</h2>
-                                <div className="flex space-x-4 justify-start">
+                            {/* Social Media Handles */}
+                            <div className="pt-2 md:pt-6">
+                                <h2 className="text-2xl font-bold mb-4">Follow Us</h2>
+                                <div className="flex space-x-6 justify-start">
                                     <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
                                         <FacebookIcon fontSize="medium" />
                                     </a>
@@ -112,27 +113,27 @@ const Contact = () => {
 
                             <img
                                 src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736265751/wedding_nfkcue.jpg"
-                                alt=""
+                                alt="Wedding"
                                 className="w-full h-60 object-cover rounded-xl pt-2"
                             />
                         </div>
 
                         {/* Right Column */}
-                        <div className="w-full p-6 pt-4 md:w-2/3">
+                        <div className="w-full p-6 pt-2 md:w-2/3">
                             <div className="divide-y divide-gray-200 space-y-0">
-                                <div className="pb-6 text-center">
-                                    <h1 className="text-2xl font-bold text-gray-800">Contact Us</h1>
+                                <div className="pb-8 text-center">
+                                    <h1 className="text-3xl font-bold text-gray-800">Contact Us</h1>
                                 </div>
 
                                 <form ref={formRef} onSubmit={onSubmit}>
-                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                                         <div className="flex flex-col">
                                             <label className="leading-loose text-gray-800">Name</label>
                                             <input
                                                 type="text"
                                                 name="name"
                                                 required="true"
-                                                className="px-4 py-3 w-full border-2 border-gray-300 rounded-md shadow-md text-sm focus:ring-2 focus:ring-indigo-500 transition-colors"
+                                                className="px-4 py-3 w-full border-2 border-gray-300 rounded-md shadow-md focus:ring-2 focus:ring-indigo-500 transition-colors"
                                                 placeholder="Your Name"
                                             />
                                         </div>
@@ -206,7 +207,7 @@ const Contact = () => {
                                     <div className="pt-4">
                                         <button
                                             type="submit"
-                                            className="bg-indigo-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-indigo-600 transition-colors"
+                                            className="bg-indigo-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-indigo-600 transition-colors"
                                         >
                                             {loading ? "Submitting..." : "Submit "}
                                         </button>

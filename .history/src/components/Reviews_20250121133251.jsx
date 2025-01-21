@@ -45,7 +45,7 @@ const Review = () => {
             <div className="max-w-7xl mx-auto px-0">
                 <h2 className="text-xl md:text-2xl font-bold text-center text-[#8b8000] mb-2">What Our Clients Say</h2>
 
-                <div className="flex space-x-6 overflow-x-auto pb-4">
+                <div className="flex space-x-6 overflow-x-auto pb-2">
                     {reviews.map((review, index) => (
                         <div
                             key={index}

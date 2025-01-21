@@ -125,19 +125,23 @@ function About() {
             </motion.section>
 
 
-            <div className="relative bg-gold h-auto text-black my-2 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-6 w-[90%] md:w-3/4">
-                <div className="md:w-3/4">
-                    <h2 className="text-xl font-bold mb-2 text-blue-600 opacity-90 leading-tight text-center mx-auto">
-                        Ready to Elevate Your Event?
+            <div className="relative bg-gold h-auto text-black my-4 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-8 w-[90%] md:w-3/4">
+                <div className="md:w-1/2">
+                    <h2 className="text-xl font-bold mb-4 text-black opacity-90 leading-tight">
+                        Ready to Elevate Your Event? <br /> Let's Create Unforgettable Memories Together!
                     </h2>
-                    <p className="text-lg font-medium text-black mb-2 md:mb-6">
-                        Let us make your special moments even more memorable.Don’t just dream about the perfect event—let’s make it a reality together. Book with us today, and let’s create something beautiful.
+
+                    <p className="text-lg font-medium text-black mb-6">
+                        Let us make your special moments even more memorable. From intimate gatherings to grand celebrations, our dedicated team is here to craft a unique experience tailored just for you. Whether it’s a wedding, corporate event, or private party, we’re passionate about delivering exceptional service and delightful flavors that will leave a lasting impression. Don’t just dream about the perfect event—let’s make it a reality together. Book with us today, and let’s create something beautiful.
                     </p>
+
+
                 </div>
 
-                <div className="md:w-3/4 mt-2 md:mt-[-140px]">
+
+                <div className="md:w-3/4 mt-4 md:mt-[-100px]">
                     <video
-                        className="w-full  h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
+                        className="w-full bg-gold h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted
@@ -151,7 +155,7 @@ function About() {
                 <img
                     src="https://res.cloudinary.com/db5pgr14l/image/upload/v1736497255/private_aj5o24.jpg"
                     alt=""
-                    className="absolute top-52 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
+                    className="absolute top-64 hidden left-5 w-1/2 h-32 sm:h-48  md:h-64 md:flex object-cover rounded-lg shadow-lg"
                 />
             </div>
 

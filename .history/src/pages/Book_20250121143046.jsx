@@ -308,7 +308,7 @@ function Inquiry() {
                     <div>
                         <button
                             type="submit"
-                            className="w-1/2 md:w-full bg-[#8b8000] text-white py-2 rounded-lg text-lg font-bold hover:bg-[#a08d00] transition duration-300"
+                            className="w-1/2 md:w-full bg-[#8b8000] text-white py-3 rounded-lg text-lg font-bold hover:bg-[#a08d00] transition duration-300"
                         >
                             {loading ? "Submitting..." : "Submit Inquiry"}
                         </button>

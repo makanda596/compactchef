@@ -69,7 +69,7 @@ function Hero() {
             </div>
 
 
-            <div className="gap-2 py-2 md:py-20">
+            <div className="gap-4 py-4 md:py-20">
                 <div className="grid grid-cols-4 gap-4 mb-4">
                     {herofiles.slice(0, 4).map((item, index) => (
                         <motion.img

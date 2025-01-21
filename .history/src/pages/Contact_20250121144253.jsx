@@ -206,7 +206,7 @@ const Contact = () => {
                                     <div className="pt-4">
                                         <button
                                             type="submit"
-                                            className="bg-indigo-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-indigo-600 transition-colors"
+                                            className="bg-indigo-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-indigo-600 transition-colors"
                                         >
                                             {loading ? "Submitting..." : "Submit "}
                                         </button>

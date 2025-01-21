@@ -233,8 +233,8 @@ const Services = () => {
             {/* Popup */}
             {showPopup && (
                 <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-start z-50">
-                    <div className="bg-white p-4 rounded-lg w-72 md:w-1/2">
-                        <h2 className="text-xl font-bold mb-2">Quick Book Form</h2>
+                    <div className="bg-white p-4 rounded-lg w-72 md:w-96">
+                        <h2 className="text-xl font-bold mb-4">Quick Book Form</h2>
                         <p className="text-sm mb-2">
                             Feel free to explore our services, and when you find the one that best suits your needs, simply click the 'Book Now' button to submit a quick booking form.
                             Our team will be happy to assist you!  </p>
