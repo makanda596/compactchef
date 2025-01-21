@@ -137,7 +137,7 @@ function About() {
 
                 <div className="md:w-3/4 mt-2 md:mt-[-140px]">
                     <video
-                        className="w-full  h-56 sm:h-72 md:h-96 md:ml-40  "
+                        className="w-96  h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted

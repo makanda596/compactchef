@@ -126,7 +126,7 @@ function About() {
 
 
             <div className="relative  h-auto text-black my-2 p-2 md:p-14 ml-5 md:ml-32 flex flex-col md:flex-row gap-6 w-[90%] md:w-3/4">
-                <div className="md:w-full">
+                <div className="md:w-3/4">
                     <h2 className="text-xl font-bold mb-2  opacity-90 leading-tight text-center mx-auto">
                         Ready to Elevate Your Event?
                     </h2>
@@ -137,7 +137,7 @@ function About() {
 
                 <div className="md:w-3/4 mt-2 md:mt-[-140px]">
                     <video
-                        className="w-full  h-56 sm:h-72 md:h-96 md:ml-40  "
+                        className="w-96  h-56 sm:h-72 md:h-96 md:ml-40 mx-auto rounded-lg shadow-lg"
                         autoPlay
                         loop
                         muted
