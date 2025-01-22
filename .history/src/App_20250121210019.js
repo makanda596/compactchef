@@ -1,3 +1,4 @@
+// src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
@@ -8,7 +9,7 @@ import Book from './pages/Book.jsx';
 import Gallery from './pages/Gallery.jsx'; // Import the Gallery page
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
-import NotFound from './pages/NotFound.jsx';
+import Routee from './pages/Routee.jsx';
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/book" element={<Book />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="*" element={<NotFound />} /> {/* Add the NotFound route */}
+          <Route path="/gallery" element={<Gallery />} /> {/* Add the gallery route */}
+          <Route path="*" element={<Routee />} />
         </Routes>
       </Router>
       <Footer />

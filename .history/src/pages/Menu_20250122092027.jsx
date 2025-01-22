@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import DownloadIcon from '@mui/icons-material/Download';
 
 function Menu() {
@@ -12,30 +12,23 @@ function Menu() {
         },
         {
             title: "Lunch Dish",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737357474/WhatsApp_Image_2025-01-20_at_07.56.56_37094b5a-removebg-preview_1_etgxbt.jpg",
+            image: "https://via.placeholder.com/300",
             description: "Explore our variety of lunch dishes, perfect for a midday treat.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
         {
             title: "Dinner Dish",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
+            image: "https://via.placeholder.com/300",
             description: "End your day with a sumptuous dinner crafted to perfection.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
         {
             title: "Dessert",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527647/desert_yajndi.avif",
+            image: "https://via.placeholder.com/300",
             description: "Indulge in our sweet and savory dessert options for a perfect finale.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
     ];
-
-    // Trigger a popup on component mount
-    useEffect(() => {
-        alert(
-            "Welcome to our customized menu! We’re happy to tailor it to match your preferences and create a menu that’s perfect for you."
-        );
-    }, []);
 
     return (
         <div className="bg-gray-100 py-12">
@@ -63,22 +56,30 @@ function Menu() {
                             </div>
                             <div className="p-6">
                                 <h3 className="text-lg font-bold text-gray-800 mb-2">{item.title}</h3>
-                                <div className="flex items-center justify-between">
-                                    <p className="text-sm text-gray-600 mb-0">{item.description}</p>
+                                <p className="text-sm text-gray-600 mb-4">{item.description}</p>
+                                <div className="flex justify-between">
+                                    <a
+                                        href={item.viewLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-sm font-semibold text-[#8b8000] hover:text-[#a08d00]"
+                                    >
+                                        View Menu
+                                    </a>
                                     <a
                                         href={item.downloadLink}
                                         download
-                                        className="bg-[#8b8000] text-white py-2 px-2 rounded-md text-sm hover:bg-[#a08d00] transition"
+                                        className="bg-[#8b8000] text-white py-2 px-4 rounded-md text-sm hover:bg-[#a08d00] transition"
                                     >
-                                        <DownloadIcon />
-                                    </a>
-                                </div>
+                                    </DownloadIcon>
+                                </a>
                             </div>
                         </div>
+                        </div>
                     ))}
-                </div>
             </div>
         </div>
+        </div >
     );
 }
 

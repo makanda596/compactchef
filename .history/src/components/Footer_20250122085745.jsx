@@ -57,12 +57,12 @@ const Footer = () => {
                                     <FacebookIcon fontSize="medium" />
                                 </a>
                                 <a
-                                    href="https://www.tiktok.com/@emojongvictor?is_from_webapp=1&sender_device=pc"
+                                    href="https://www.tiktok.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-color"
+                                    className="text-pink-500 hover:text-pink-400 transition text-lg"
                                 >
-                                    <FaTiktok fontSize="large" />
+                                    <FaTiktok />
                                 </a>
                                 <a
                                     href=""

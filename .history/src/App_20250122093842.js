@@ -21,7 +21,8 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/book" element={<Book />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery" element={<Gallery />} /> {/* Add the gallery route */}
+
           <Route path="*" element={<NotFound />} /> {/* Add the NotFound route */}
         </Routes>
       </Router>

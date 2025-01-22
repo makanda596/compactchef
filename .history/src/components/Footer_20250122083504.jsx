@@ -1,6 +1,6 @@
 import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import { FaTiktok } from "react-icons/fa";
+import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
@@ -56,14 +56,7 @@ const Footer = () => {
                                 >
                                     <FacebookIcon fontSize="medium" />
                                 </a>
-                                <a
-                                    href="https://www.tiktok.com/@emojongvictor?is_from_webapp=1&sender_device=pc"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-color"
-                                >
-                                    <FaTiktok fontSize="large" />
-                                </a>
+
                                 <a
                                     href=""
                                     className="hover:text-blue-400 transition-colors"

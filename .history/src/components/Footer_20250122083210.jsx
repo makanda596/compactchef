@@ -1,6 +1,6 @@
 import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import { FaTiktok } from "react-icons/fa";
+import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
@@ -49,7 +49,7 @@ const Footer = () => {
                             <h2 className="text-xl font-bold mb-4 text-[#d4af37]">Follow Us</h2>
                             <div className="flex space-x-6 justify-start">
                                 <a
-                                    href="https://www.facebook.com/profile.php?id=100088582093332e"
+                                    href="https://www.facebook.com/yourpage"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="hover:text-blue-400 transition-colors"
@@ -57,12 +57,12 @@ const Footer = () => {
                                     <FacebookIcon fontSize="medium" />
                                 </a>
                                 <a
-                                    href="https://www.tiktok.com/@emojongvictor?is_from_webapp=1&sender_device=pc"
+                                    href="https://twitter.com/yourhandle"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-color"
+                                    className="hover:text-blue-400 transition-colors"
                                 >
-                                    <FaTiktok fontSize="large" />
+                                    <TwitterIcon fontSize="medium" />
                                 </a>
                                 <a
                                     href=""

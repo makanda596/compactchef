@@ -65,7 +65,7 @@ const Footer = () => {
                                     <FaTiktok fontSize="large" />
                                 </a>
                                 <a
-                                    href=""
+                                    href="h"
                                     className="hover:text-blue-400 transition-colors"
                                 >
                                     <LinkedInIcon fontSize="medium" />

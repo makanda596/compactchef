@@ -53,12 +53,7 @@ const Gallery = () => {
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737294236/EC_menus1_qgbbd4.jpg",
             eventPlace: "Tanzania Cooporate Event"
-        }
-        ,
-        {
-            src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527526/birthday_om542y.avif"
-        }
-        ,
+        },
 
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
@@ -104,9 +99,6 @@ const Gallery = () => {
             eventPlace: "Event Place 17"
 
         },
-        {
-            src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527526/birthday_om542y.avif"
-        }
     ];
 
 
@@ -160,7 +152,7 @@ const Gallery = () => {
                             className="w-full h-64 object-cover transition-transform duration-300 transform group-hover:scale-110"
                         />
                         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center transition-opacity duration-300">
-                            <span className="text-white text-base md:text-lg text-center">{image.eventPlace}</span>
+                            <span className="text-white text-base text-center">{image.eventPlace}</span>
                         </div>
 
                         <button

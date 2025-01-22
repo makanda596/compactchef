@@ -62,7 +62,7 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     className="hover:text-blue-400 transition-color"
                                 >
-                                    <FaTiktok fontSize="large" />
+                                    <FaTiktok fontSize="medium" />
                                 </a>
                                 <a
                                     href=""

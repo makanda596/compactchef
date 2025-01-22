@@ -18,13 +18,13 @@ function Menu() {
         },
         {
             title: "Dinner Dish",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
+            image: "https://via.placeholder.com/300",
             description: "End your day with a sumptuous dinner crafted to perfection.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
         {
             title: "Dessert",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527647/desert_yajndi.avif",
+            image: "https://via.placeholder.com/300",
             description: "Indulge in our sweet and savory dessert options for a perfect finale.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },

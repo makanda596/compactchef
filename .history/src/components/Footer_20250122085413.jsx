@@ -1,6 +1,6 @@
 import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import { FaTiktok } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa"; // Correct import
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
@@ -57,27 +57,26 @@ const Footer = () => {
                                     <FacebookIcon fontSize="medium" />
                                 </a>
                                 <a
-                                    href="https://www.tiktok.com/@emojongvictor?is_from_webapp=1&sender_device=pc"
+                                    href="https://www.tiktok.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-color"
+                                    className="text-pink-500 hover:text-pink-400 transition text-lg"
                                 >
-                                    <FaTiktok fontSize="large" />
-                                </a>
-                                <a
-                                    href=""
-                                    className="hover:text-blue-400 transition-colors"
-                                >
-                                    <LinkedInIcon fontSize="medium" />
-                                </a>
-                                <a
-                                    href="https://www.instagram.com/yourhandle"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-colors"
-                                >
-                                    <InstagramIcon fontSize="medium" />
-                                </a>
+                                    <FaTiktok />
+                                    <a
+                                        href=""
+                                        className="hover:text-blue-400 transition-colors"
+                                    >
+                                        <LinkedInIcon fontSize="medium" />
+                                    </a>
+                                    <a
+                                        href="https://www.instagram.com/yourhandle"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:text-blue-400 transition-colors"
+                                    >
+                                        <InstagramIcon fontSize="medium" />
+                                    </a>
                             </div>
 
 

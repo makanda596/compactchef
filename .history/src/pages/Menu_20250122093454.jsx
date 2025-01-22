@@ -18,7 +18,7 @@ function Menu() {
         },
         {
             title: "Dinner Dish",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
+            image: "https://via.placeholder.com/300",
             description: "End your day with a sumptuous dinner crafted to perfection.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
@@ -35,7 +35,7 @@ function Menu() {
         alert(
             "Welcome to our customized menu! We’re happy to tailor it to match your preferences and create a menu that’s perfect for you."
         );
-    }, []);
+    }, [2000]);
 
     return (
         <div className="bg-gray-100 py-12">

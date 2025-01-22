@@ -53,12 +53,7 @@ const Gallery = () => {
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737294236/EC_menus1_qgbbd4.jpg",
             eventPlace: "Tanzania Cooporate Event"
-        }
-        ,
-        {
-            src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527526/birthday_om542y.avif"
-        }
-        ,
+        },
 
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",

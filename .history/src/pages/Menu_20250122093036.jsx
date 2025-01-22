@@ -12,19 +12,19 @@ function Menu() {
         },
         {
             title: "Lunch Dish",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737357474/WhatsApp_Image_2025-01-20_at_07.56.56_37094b5a-removebg-preview_1_etgxbt.jpg",
+            image: "https://via.placeholder.com/300",
             description: "Explore our variety of lunch dishes, perfect for a midday treat.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
         {
             title: "Dinner Dish",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
+            image: "https://via.placeholder.com/300",
             description: "End your day with a sumptuous dinner crafted to perfection.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
         {
             title: "Dessert",
-            image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527647/desert_yajndi.avif",
+            image: "https://via.placeholder.com/300",
             description: "Indulge in our sweet and savory dessert options for a perfect finale.",
             downloadLink: "https://res.cloudinary.com/db5pgr14l/raw/upload/v1736311737/ugenya_menu_eanlxs.docx",
         },
