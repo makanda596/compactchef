@@ -33,9 +33,6 @@ const Gallery = () => {
             eventPlace: " Wedding Event"
         },
         {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742632394/IMG-20250322-WA0132_jvqg1e.jpg"
-        },
-        {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1736261948/compactChef/jexwbm6cu6letodrhwga.jpg",
             eventPlace: "Amondi Birthday Event"
         },
@@ -113,9 +110,6 @@ const Gallery = () => {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1742632159/IMG-20250322-WA0005_csbqqg.jpg",
             eventPlace: ""
 
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742632163/IMG-20250322-WA0128_mgazuw.jpg"
         },
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737299509/IMG-20250119-WA0050_xak3xq.jpg",

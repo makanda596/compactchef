@@ -33,9 +33,6 @@ const Gallery = () => {
             eventPlace: " Wedding Event"
         },
         {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742632394/IMG-20250322-WA0132_jvqg1e.jpg"
-        },
-        {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1736261948/compactChef/jexwbm6cu6letodrhwga.jpg",
             eventPlace: "Amondi Birthday Event"
         },
