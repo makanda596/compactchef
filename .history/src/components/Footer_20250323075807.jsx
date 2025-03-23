@@ -31,7 +31,7 @@ const Footer = () => {
     return (
         <footer className="bg-[#1a1a1a] text-white py-2">
             <div className="max-w-7xl mx-auto px-6 sm:px-4">
-                <div className="text-center space-y-2 mb-2">
+                <div className="text-center space-y-2 mb-8">
                     <h3 className="text-md font-bold text-[#d4af37]">Subscribe to our Newsletter for Dish Recipes, Menus, and Updates on Special Offers </h3>
                     <form onSubmit={handleSubscribe} className="flex flex-col md:flex-row justify-center items-center gap-4">
                         <input

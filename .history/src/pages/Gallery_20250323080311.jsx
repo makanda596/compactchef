@@ -11,10 +11,7 @@ const Gallery = () => {
     const [zoom, setZoom] = useState(1);
 
     const images = [ 
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706302/IMG-20250301-WA0055_tnywxq.jpg",
-            eventPlace: "Vihiga Wedding Event"
-        },
+        
         {
             id: 1,
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1742618735/wed12_obq3yo.jpg",
@@ -36,9 +33,6 @@ const Gallery = () => {
             eventPlace: " Wedding Event"
         },
         {
-            src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1742706300/IMG-20250301-WA0054_xlnden.jpg'
-        },
-        {
             src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742632394/IMG-20250322-WA0132_jvqg1e.jpg"
         },
         {
@@ -48,9 +42,6 @@ const Gallery = () => {
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737288753/baby_qeno4b.jpg",
             eventPlace: "Baby Shower"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706298/IMG-20250301-WA0051_rsgfb7.jpg"
         },
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737290597/catering_xdf7yw.webp",
@@ -78,18 +69,12 @@ const Gallery = () => {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737294236/EC_menus1_qgbbd4.jpg",
             eventPlace: "Tanzania Cooporate Event"
         }
-        ,{
-src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-WA0029_orfb3i.jpg",
-            eventPlace: "BabyShower Event"
-
-        },
+        ,
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737527526/birthday_om542y.avif"
         }
         ,
-{
-    src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250105-WA0317_eys86n.jpg'
-},
+
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg",
             eventPlace: "Homabay Graduation Event"
@@ -99,25 +84,10 @@ src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737288839/WhatsApp_Image_2025-01-08_at_17.57.52_d9545b91_ktmir3.jpg",
             eventPlace: "Busia Ruracio Event"
         },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706296/IMG-20250105-WA0285_azsu81.jpg",
-            eventPlace: "Vihiga Traditional Wedding"
-
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1737293936/IMG-20250108-WA0100_nvowbe.jpg"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1737298843/wedding_f3ekxu.jpg",
-            eventPlace: " Cooporate Event"
-        },
 
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1736264671/compactChef/rzduwk5ix2dmgjv1m0at.jpg",
             eventPlace: "Bondo Cooporate Event"
-        },
-        {
-            src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1742706300/IMG-20250301-WA0054_xlnden.jpg'
         },
 
         {
@@ -132,29 +102,17 @@ src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-
             eventPlace: "Kisumu Wedding Event"
 
         },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1737299509/IMG-20250119-WA0050_xak3xq.jpg",
-            eventPlace: "Church Ceremony"
-
-        },
 
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1737299302/IMG-20250105-WA0302_jbj5qj.jpg",
             eventPlace: "Nairobi Private Event"
 
-        },
-        {
-            src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1737290824/coopr_hxrzgo.jpg',
-            eventPlace: "Cooporate Event"
         }
         ,
         {
             src: "https://res.cloudinary.com/db5pgr14l/image/upload/v1742632159/IMG-20250322-WA0005_csbqqg.jpg",
             eventPlace: ""
 
-        },
-        {
-            src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1742706299/IMG-20250301-WA0059_cuv0hc.jpg'
         },
         {
             src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742632163/IMG-20250322-WA0128_mgazuw.jpg"
@@ -187,9 +145,6 @@ src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-
         src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1736497255/private_aj5o24.jpg"
     },
     {
-        src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706298/IMG-20250301-WA0051_rsgfb7.jpg"
-    },
-    {
         src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742621785/ugenya_nc3kre.jpg"
     },
         { src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742621785/ugenya_nc3kre.jpg"},{
@@ -200,23 +155,6 @@ src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-
         },
         {
             src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1737291091/IMG-20250105-WA0280_stddpe.jpg"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1736261950/compactChef/pmne88kacyveovx5736t.jpg"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706297/IMG-20250301-WA0045_svyr5j.jpg"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706298/WhatsApp_Image_2025-01-19_at_16.24.37_ff8f9cad_iz1gbu.jpg"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742706296/IMG-20250105-WA0285_azsu81.jpg"
-        },
-        {
-            src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1737527647/desert_yajndi.avif"
-        },{
-            src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1737349641/IMG-20250105-WA0301_zp6b3l.jpg'
         }
     ];
 
@@ -270,7 +208,7 @@ src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-
                             alt=""
                             className="w-full h-64 object-cover transition-transform duration-300 transform group-hover:scale-110"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center transition-opacity duration-300">
+                        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center transition-opacity duration-300">
                             <span className="text-white text-base md:text-lg text-center">{image.eventPlace}</span>
                         </div>
 

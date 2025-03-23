@@ -69,7 +69,8 @@ const Footer = () => {
                             <li>Kisumu, Kenya</li>
                             <li><a href="mailto:compactchefsevents@gmail.com" target="_blank" rel="noopener noreferrer" className='py-1 hover:text-gold'>Email: compactchefsevents@gmail.com</a></li>
                             <br />
-                            <a href="tel:+254791317298" target="_blank" rel="noopener noreferrer" className='py-1 hover:text-gold'>Phone: +254 791 317 298</a>
+                           <li>
+                            <a href="tel:+254791317298" target="_blank" rel="noopener noreferrer" className='py-1 hover:text-gold'>Phone: +254 791 317 298</a></li> 
                         </ul>
                         <div className="pt-2 md:pt-6">
                             <h2 className="text-xl font-bold mb-2 text-[#d4af37]">Follow Us</h2>

@@ -31,7 +31,7 @@ const Footer = () => {
     return (
         <footer className="bg-[#1a1a1a] text-white py-2">
             <div className="max-w-7xl mx-auto px-6 sm:px-4">
-                <div className="text-center space-y-2 mb-2">
+                <div className="text-center space-y-2 mb-8">
                     <h3 className="text-md font-bold text-[#d4af37]">Subscribe to our Newsletter for Dish Recipes, Menus, and Updates on Special Offers </h3>
                     <form onSubmit={handleSubscribe} className="flex flex-col md:flex-row justify-center items-center gap-4">
                         <input
@@ -86,9 +86,8 @@ const Footer = () => {
                 <div className="border-t border-gray-700 my-2"></div>
 
                 <div className="text-center space-y-2 text-md">
-                    Created by <a href="https://wa.me/+254742149060" target="_blank" rel="noopener noreferrer" className='underline text-blue-500 hover:text-white'>Makanda Worksoft</a>
-
                     <p className="text-gold">&copy; {new Date().getFullYear()} Compact Chefs Events and Caterers. All rights reserved.</p>
+                    Created by <a href="https://wa.me/+254742149060" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500'>Makanda Worksoft</a>
                 </div>
             </div>
         </footer>

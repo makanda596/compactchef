@@ -36,9 +36,6 @@ const Gallery = () => {
             eventPlace: " Wedding Event"
         },
         {
-            src:'https://res.cloudinary.com/db5pgr14l/image/upload/v1742706300/IMG-20250301-WA0054_xlnden.jpg'
-        },
-        {
             src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742632394/IMG-20250322-WA0132_jvqg1e.jpg"
         },
         {
@@ -270,7 +267,7 @@ src:"https://res.cloudinary.com/db5pgr14l/image/upload/v1742707028/IMG-20250106-
                             alt=""
                             className="w-full h-64 object-cover transition-transform duration-300 transform group-hover:scale-110"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center transition-opacity duration-300">
+                        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
                             <span className="text-white text-base md:text-lg text-center">{image.eventPlace}</span>
                         </div>
 
