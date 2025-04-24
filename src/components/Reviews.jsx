@@ -51,7 +51,7 @@ const Review = () => {
         formData.append("name", name);
         formData.append("rating", rating);
         formData.append("review", review);
-        formData.append("access_key", "0cc2e329-faf6-499f-bc20-7239c9481cc5");
+        formData.append("access_key", "");
 
         await fetch("https://api.web3forms.com/submit", {
             method: "POST",

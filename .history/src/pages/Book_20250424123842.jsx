@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Swal from 'sweetalert2';
 
 function Inquiry() {
     const [loading, setLoading] = useState(false);
@@ -54,7 +55,7 @@ function Inquiry() {
         setLoading(true);
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "0cc2e329-faf6-499f-bc20-7239c9481cc5");
+        formData.append("access_key", "");
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -314,22 +315,7 @@ function Inquiry() {
                 </form>
             </div>
 
-            {submitted && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="bg-white rounded-lg p-6 text-center shadow-lg">
-                        <h2 className="text-2xl font-bold text-gray-800 mb-4">Inquiry Submitted!</h2>
-                        <p className="text-gray-600 mb-6">
-                            Thank you for your inquiry. We’ll get back to you soon.
-                        </p>
-                        <button
-                            onClick={() => setSubmitted(false)}
-                            className="bg-[#8b8000] text-white py-2 px-6 rounded-lg hover:bg-[#a08d00]"
-                        >
-                            Close
-                        </button>
-                    </div>
-                </div>
-            )}
+            
         </div>
     );
 }

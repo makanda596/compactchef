@@ -12,7 +12,7 @@ const Footer = () => {
         e.preventDefault();
         const formData = new FormData();
         formData.append("email", email);
-        formData.append("access_key", "0cc2e329-faf6-499f-bc20-7239c9481cc5");
+        formData.append("access_key", "");
 
         await fetch("https://api.web3forms.com/submit", {
             method: "POST",
