@@ -1,13 +1,13 @@
-import React, { useState} from "react";
+import React, { useState ,useEffect} from "react";
 import logo from '../assets/logo.jpg'
-// import {useLocation} from 'react-router-dom'
+import {useLocation} from 'react-router-dom'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-//     const location = useLocation();
+    const location = useLocation();
 
-//     useEffect(()=>{
-// console.log(location.pathname)
-//     }, [location])
+    useEffect(()=>{
+console.log(location.pathname)
+    }, [location])
     return (
         <nav className="bg-gold shadow-lg fixed top-0 z-50 w-full">
             <div className="container mx-auto px-4 flex justify-between items-center h-12 md:h-14">

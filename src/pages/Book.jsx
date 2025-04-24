@@ -55,7 +55,7 @@ function Inquiry() {
         setLoading(true);
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "0cc2e329-faf6-499f-bc20-7239c9481cc5");
+        formData.append("access_key", "");
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
