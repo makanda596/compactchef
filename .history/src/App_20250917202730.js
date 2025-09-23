@@ -12,7 +12,7 @@ import Decor from './pages/Decor.jsx';
 
 function App() {
   return (
-    <div className='hidden'>
+    <div className="display-hidd flex-col min-h-screen">
       <Navbar />
       <Router>
         <Routes>

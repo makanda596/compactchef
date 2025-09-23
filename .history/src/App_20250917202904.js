@@ -12,7 +12,7 @@ import Decor from './pages/Decor.jsx';
 
 function App() {
   return (
-    <>
+    <div >
       <Navbar />
       <Router>
         <Routes>
@@ -26,7 +26,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
-    </>
+    </div>
   );
 }
 

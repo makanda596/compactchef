@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Services from './pages/Services.jsx';
-import Menu from './pages/Menu.jsx';
 import Contact from './pages/Contact.jsx';
 import Book from './pages/Book.jsx';
 import Gallery from './pages/Gallery.jsx'; // Import the Gallery page
@@ -13,7 +12,7 @@ import Decor from './pages/Decor.jsx';
 
 function App() {
   return (
-    <>
+    <div className="display:hidden">
       <Navbar />
       <Router>
         <Routes>
@@ -27,7 +26,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
-    </>
+    </div>
   );
 }
 

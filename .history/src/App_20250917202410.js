@@ -12,7 +12,7 @@ import Decor from './pages/Decor.jsx';
 
 function App() {
   return (
-    <div className='hidden'>
+    <div className="display:none">
       <Navbar />
       <Router>
         <Routes>
