@@ -9,10 +9,10 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Decor from './pages/Decor.jsx';
-
+// className='hidden'
 function App() {
   return (
-    <div className='hidden'>
+    <div >
       <Navbar />
       <Router>
         <Routes>
