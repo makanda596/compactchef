@@ -10,7 +10,7 @@ import Swal from "sweetalert2";
 
 const Contact = () => {
     const [loading, setLoading] = useState(false);
-    // const [submitted, setSubmitted] = useState(false);
+    const [submitted, setSubmitted] = useState(true);
     const formRef = useRef(null); 
 
     const onSubmit = async (event) => {
